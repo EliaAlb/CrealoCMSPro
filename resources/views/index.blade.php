@@ -1,30 +1,28 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Sun Oct 13 2024 16:29:07 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html>
 <html data-wf-page="66cc87062bcd9d178ab9f1ab" data-wf-site="66cc87062bcd9d178ab9f11c" lang="de">
 <head>
   <meta charset="utf-8">
-  <title>Dashly X - Webflow Ecommerce website template</title>
+  <title>Crealo CMS Pro</title>
   <meta content="Dashly X is our premium dashboard Webflow Template &amp; UI Kit with 40+ pages and 60+ views. It includes everything you will need develop the front-end views of your web app or dashboard using Webflow." name="description">
   <meta content="Dashly X - Webflow Ecommerce website template" property="og:title">
   <meta content="Dashly X is our premium dashboard Webflow Template &amp; UI Kit with 40+ pages and 60+ views. It includes everything you will need develop the front-end views of your web app or dashboard using Webflow." property="og:description">
-  <meta content="https://uploads-ssl.webflow.com/6260849a6eab2a733e282630/62a2831af662145f8f69c3bf_featured-image-dashly-dashboard-webflow-template%20.png" property="og:image">
   <meta content="Dashly X - Webflow Ecommerce website template" property="twitter:title">
   <meta content="Dashly X is our premium dashboard Webflow Template &amp; UI Kit with 40+ pages and 60+ views. It includes everything you will need develop the front-end views of your web app or dashboard using Webflow." property="twitter:description">
-  <meta content="https://uploads-ssl.webflow.com/6260849a6eab2a733e282630/62a2831af662145f8f69c3bf_featured-image-dashly-dashboard-webflow-template%20.png" property="twitter:image">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/quicksave.webflow.css" rel="stylesheet" type="text/css">
+  <link href="{{ asset('css/normalize.css') }}" rel="stylesheet" type="text/css">
+  <link href="{{ asset('css/webflow.css') }}" rel="stylesheet" type="text/css">
+  <link href="{{ asset('css/quicksave.webflow.css') }}" rel="stylesheet" type="text/css">
   <style>@media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="e90828c6-a1ed-c618-5478-321adcea7d40"] {color:rgb(11,14,44);-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);}}@media (max-width:991px) and (min-width:768px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="e90828c6-a1ed-c618-5478-321adcea7d40"] {color:rgb(11,14,44);-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);}}@media (max-width:767px) and (min-width:480px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="e90828c6-a1ed-c618-5478-321adcea7d40"] {color:rgb(11,14,44);-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);}}@media (max-width:479px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="e90828c6-a1ed-c618-5478-321adcea7d40"] {color:rgb(11,14,44);-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);}}</style>
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Inter:regular,500,700"]  }});</script>
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
-  <link href="images/webclip.png" rel="apple-touch-icon">
+  <link href="{{ asset('images/favicon.png') }}" rel="shortcut icon" type="image/x-icon">
+  <link href="{{ asset('images/webclip.png') }}" rel="apple-touch-icon">
   <style>
   .w-webflow-badge{
   display:none !important;
@@ -36,10 +34,10 @@
     <div data-animation="default" class="header-wrapper border-bottom-solid w-nav" data-easing2="ease" data-easing="ease" data-collapse="medium" style="opacity:0" data-w-id="e90828c6-a1ed-c618-5478-321adcea7d2d" role="banner" data-duration="400">
       <div class="container-large w-container">
         <div class="header-content-wrapper">
-          <a href="index.html" aria-current="page" class="logo-wrapper w-nav-brand w--current"><img src="images/dashly-webflow-template-logo.svg" alt="Dashly X Webflow Template - Logo"></a>
+          <a href="index.html" aria-current="page" class="logo-wrapper w-nav-brand w--current"><img src="{{ asset('images/dashly-webflow-template-logo.svg') }}" alt="Dashly X Webflow Template - Logo"></a>
           <div class="header-right-side">
             <div data-node-type="commerce-cart-wrapper" data-open-product="" data-wf-cart-type="modal" data-wf-cart-query="" data-wf-page-link-href-prefix="" class="w-commerce-commercecartwrapper">
-              <a href="#" data-node-type="commerce-cart-open-link" class="w-commerce-commercecartopenlink cart-button w-inline-block" role="button" aria-haspopup="dialog" aria-label="Open cart"><img src="images/shopping-cart-icon-dashboardly-webflow-template.svg" loading="eager" alt="">
+              <a href="#" data-node-type="commerce-cart-open-link" class="w-commerce-commercecartopenlink cart-button w-inline-block" role="button" aria-haspopup="dialog" aria-label="Open cart"><img src="{{ asset('images/shopping-cart-icon-dashboardly-webflow-template.svg') }}" loading="eager" alt="">
                 <div class="w-commerce-commercecartopenlinkcount cart-quantity">0</div>
               </a>
               <div data-node-type="commerce-cart-container-wrapper" style="display:none" class="w-commerce-commercecartcontainerwrapper w-commerce-commercecartcontainerwrapper--cartType-modal">
@@ -169,7 +167,7 @@
             </div>
           </div>
         </div>
-        <div data-w-id="15a792eb-17ac-0e38-75a9-29958dfc6b54" style="opacity:0" class="homepage-top-section-main-image-wrapper"><img src="images/homepage-hero-image-dashboardly-webflow-template.png" loading="eager" sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, (max-width: 991px) 94vw, (max-width: 1919px) 60vw, 874px" srcset="images/homepage-hero-image-dashboardly-webflow-template-p-500.png 500w, images/homepage-hero-image-dashboardly-webflow-template-p-800.png 800w, images/homepage-hero-image-dashboardly-webflow-template-p-1080.png 1080w, images/homepage-hero-image-dashboardly-webflow-template.png 1820w" alt="Presenting Dashly X - Dashly X Webflow Template"></div>
+        <div data-w-id="15a792eb-17ac-0e38-75a9-29958dfc6b54" style="opacity:0" class="homepage-top-section-main-image-wrapper"><img src="{{ asset('images/homepage-hero-image-dashboardly-webflow-template.png') }}" loading="eager" sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, (max-width: 991px) 94vw, (max-width: 1919px) 60vw, 874px" srcset="{{ asset('images/homepage-hero-image-dashboardly-webflow-template-p-500.png') }} 500w, {{ asset('images/homepage-hero-image-dashboardly-webflow-template-p-800.png') }} 800w, {{ asset('images/homepage-hero-image-dashboardly-webflow-template-p-1080.png') }} 1080w, {{ asset('images/homepage-hero-image-dashboardly-webflow-template.png') }} 1820w" alt="Presenting Dashly X - Dashly X Webflow Template"></div>
         <div data-w-id="b1cbff4c-e723-3d1a-aa19-21f3ef00d761" style="opacity:0" class="screens-text-container">
           <div data-w-id="0c03d0f9-a31d-e1e7-e085-08e21c0221f7">
             <div class="move-x-10px">
@@ -187,19 +185,19 @@
           <h2 class="text-center mg-bottom-24px">Build your own dashboard in minutes with our amazing UI Kit</h2>
         </div>
         <div class="flex-horizontal vertical-left-mbl mg-bottom-48px">
-          <div id="w-node-fecb9bc8-0afa-83bb-a64d-73a33c6910e6-8ab9f1ab" data-w-id="fecb9bc8-0afa-83bb-a64d-73a33c6910e6" style="opacity:0" class="module homepage-features"><img src="images/screens-icon-homepage-dashboardly-webflow-template.svg" loading="eager" id="w-node-fecb9bc8-0afa-83bb-a64d-73a33c6910e7-8ab9f1ab" alt="60+ Screens - Dashly X Webflow Template">
+          <div id="w-node-fecb9bc8-0afa-83bb-a64d-73a33c6910e6-8ab9f1ab" data-w-id="fecb9bc8-0afa-83bb-a64d-73a33c6910e6" style="opacity:0" class="module homepage-features"><img src="{{ asset('images/screens-icon-homepage-dashboardly-webflow-template.svg') }}" loading="eager" id="w-node-fecb9bc8-0afa-83bb-a64d-73a33c6910e7-8ab9f1ab" alt="60+ Screens - Dashly X Webflow Template">
             <div>
               <div class="heading-h1-size">60+</div>
               <div class="text-400 medium">Screens</div>
             </div>
           </div>
-          <div id="w-node-fecb9bc8-0afa-83bb-a64d-73a33c6910ed-8ab9f1ab" data-w-id="fecb9bc8-0afa-83bb-a64d-73a33c6910ed" style="opacity:0" class="module homepage-features middle"><img src="images/sections-icon-homepage-dashboardly-webflow-template.svg" loading="eager" id="w-node-fecb9bc8-0afa-83bb-a64d-73a33c6910ee-8ab9f1ab" alt="100+ Sections - Dashly X Webflow Template">
+          <div id="w-node-fecb9bc8-0afa-83bb-a64d-73a33c6910ed-8ab9f1ab" data-w-id="fecb9bc8-0afa-83bb-a64d-73a33c6910ed" style="opacity:0" class="module homepage-features middle"><img src="{{ asset('images/sections-icon-homepage-dashboardly-webflow-template.svg') }}" loading="eager" id="w-node-fecb9bc8-0afa-83bb-a64d-73a33c6910ee-8ab9f1ab" alt="100+ Sections - Dashly X Webflow Template">
             <div>
               <div class="heading-h1-size">100+</div>
               <div class="text-400 medium">Sections</div>
             </div>
           </div>
-          <div id="w-node-fecb9bc8-0afa-83bb-a64d-73a33c6910f4-8ab9f1ab" data-w-id="fecb9bc8-0afa-83bb-a64d-73a33c6910f4" style="opacity:0" class="module homepage-features"><img src="images/components-icon-homepage-dashboardly-webflow-template.svg" loading="eager" id="w-node-fecb9bc8-0afa-83bb-a64d-73a33c6910f5-8ab9f1ab" alt="80+ Components - Dashly X Webflow Template">
+          <div id="w-node-fecb9bc8-0afa-83bb-a64d-73a33c6910f4-8ab9f1ab" data-w-id="fecb9bc8-0afa-83bb-a64d-73a33c6910f4" style="opacity:0" class="module homepage-features"><img src="{{ asset('images/components-icon-homepage-dashboardly-webflow-template.svg') }}" loading="eager" id="w-node-fecb9bc8-0afa-83bb-a64d-73a33c6910f5-8ab9f1ab" alt="80+ Components - Dashly X Webflow Template">
             <div>
               <div class="heading-h1-size">80+</div>
               <div class="text-400 medium">Components</div>
@@ -624,6 +622,6 @@
     <div class="more-templates-lottie" data-w-id="fa1d8c48-251b-031e-88b3-f55b77ac8486" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/5e30f06b05f79621331ddc25/65dcea068e8dfd14eaed7b6f_Notification%20Dot.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="2.5" data-duration="0"></div>
   </a>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66cc87062bcd9d178ab9f11c" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="{{ asset('js/webflow.js') }}" type="text/javascript"></script>
 </body>
 </html>
