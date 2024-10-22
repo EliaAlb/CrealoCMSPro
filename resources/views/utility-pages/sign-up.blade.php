@@ -41,7 +41,13 @@
           <h1 class="heading-h3-size mg-bottom-8px">Create an account</h1>
           <p class="mg-bottom-20px">Lorem ipsum dolor sit amet consectetur adipiscing elit sedol do eiusmod tempor consectur.</p>
           <div class="form min-h-256px mg-bottom-24px w-form">
-            <form id="email-form" name="email-form" data-name="Email Form" method="get" data-wf-page-id="66cc87062bcd9d178ab9f2ad" data-wf-element-id="162fbeb0-f8be-4081-7642-8a6da17369da"><input class="input mg-bottom-16px w-input" autofocus="true" maxlength="256" name="Name" data-name="Name" placeholder="Full name" type="text" id="Name" required=""><input class="input mg-bottom-16px w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email address" type="email" id="Email" required=""><input class="input mg-bottom-16px w-input" maxlength="256" name="Password" data-name="Password" placeholder="Password" type="password" id="Password" required=""><input type="submit" data-wait="Please wait..." class="btn-primary width-100 w-button" value="Sign In"></form>
+            <form id="email-form" name="email-form" data-name="Email Form" action="{{ route('register') }}" method="POST" data-wf-page-id="66cc87062bcd9d178ab9f2ad" data-wf-element-id="162fbeb0-f8be-4081-7642-8a6da17369da">
+              @csrf
+              <input class="input mg-bottom-16px w-input" autofocus="true" maxlength="256" name="Name" data-name="Name" placeholder="Full name" type="text" id="Name" required="">
+              <input class="input mg-bottom-16px w-input" maxlength="256" name="email" data-name="Email" placeholder="Email address" type="email" id="Email" required="">
+              <input class="input mg-bottom-16px w-input" maxlength="256" name="password" data-name="Password" placeholder="Password" type="password" id="Password" required="">
+              <input type="submit" data-wait="Please wait..." class="btn-primary width-100 w-button" value="Sign In">
+            </form>
             <div class="success-message utility-page-success-message w-form-done">
               <div>Welcome!</div>
             </div>

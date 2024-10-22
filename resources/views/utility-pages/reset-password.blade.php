@@ -45,7 +45,11 @@
             <div class="heading-h3-size mg-bottom-8px">Reset your password</div>
             <p class="mg-bottom-24px">Vitae turpis viverra a egestas urna sodales neque nunc et dolor sem sociis dictum amet ullamcorper lorem facilisi.</p>
             <div class="form min-h-116px w-form">
-              <form id="email-form" name="email-form" data-name="Email Form" method="get" data-wf-page-id="66cc87062bcd9d178ab9f2aa" data-wf-element-id="3ae62a71-e79b-0fe9-8be6-eff294c7b071"><input class="input mg-bottom-12px w-input" maxlength="256" name="email" data-name="Email" placeholder="Email address" type="email" id="email" required=""><input type="submit" data-wait="Please wait..." class="btn-primary width-100 w-button" value="Reset password"></form>
+              <form id="email-form" name="email-form" data-name="Email Form" action="{{ route('password.email') }}" method="POST" data-wf-page-id="66cc87062bcd9d178ab9f2aa" data-wf-element-id="3ae62a71-e79b-0fe9-8be6-eff294c7b071">
+                @csrf
+                <input class="input mg-bottom-12px w-input" maxlength="256" name="email" data-name="Email" placeholder="Email address" type="email" id="email" required="">
+                <button type="submit" data-wait="Please wait..." class="btn-primary width-100 w-button">Reset password</button>
+              </form>
               <div class="success-message utility-page-success-message w-form-done">
                 <div>Your new password has been sent to your email</div>
               </div>

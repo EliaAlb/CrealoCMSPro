@@ -45,7 +45,12 @@
             <div class="heading-h3-size mg-bottom-8px">Welcome back</div>
             <p class="mg-bottom-24px">Lorem ipsum dolor sit amet consectetur adipiscing elit sedol do eiusmod tempor consectur.</p>
             <div class="form min-h-188px mg-bottom-24px w-form">
-              <form id="email-form" name="email-form" data-name="Email Form" method="get" data-wf-page-id="66cc87062bcd9d178ab9f299" data-wf-element-id="42cec775-e6ca-8762-cd34-1c5d55bb5edd"><input class="input mg-bottom-16px w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email address" type="email" id="Email-3" required=""><input class="input mg-bottom-16px w-input" maxlength="256" name="Password" data-name="Password" placeholder="Password" type="password" id="Password" required=""><input type="submit" data-wait="Please wait..." class="btn-primary width-100 w-button" value="Sign In"></form>
+              <form id="email-form" name="email-form" data-name="Email Form" action="{{ route('login') }}" method="POST" data-wf-page-id="66cc87062bcd9d178ab9f299" data-wf-element-id="42cec775-e6ca-8762-cd34-1c5d55bb5edd">
+                @csrf
+                <input class="input mg-bottom-16px w-input" maxlength="256" name="email" data-name="Email" placeholder="Email address" type="email" id="Email-3" required="">
+                <input class="input mg-bottom-16px w-input" maxlength="256" name="password" data-name="Password" placeholder="Password" type="password" id="Password" required="">
+                <input type="submit" data-wait="Please wait..." class="btn-primary width-100 w-button" value="Sign In">
+              </form>
               <div class="success-message utility-page-success-message w-form-done">
                 <div>Welcome!</div>
               </div>
@@ -57,8 +62,11 @@
               <div class="grid-2-columns _2-col-mbl gap-0">
                 <div id="w-node-cba12da5-978a-4038-820c-6951096da839-8ab9f299" class="flex align-center text-left">
                   <div class="mg-bottom-0 mg-right-8px w-form">
-                    <form id="email-form" name="email-form" data-name="Email Form" method="get" data-wf-page-id="66cc87062bcd9d178ab9f299" data-wf-element-id="77b95bf4-3539-d1f4-01d4-a66d2f1842d1"><label class="w-checkbox checkbox-field-wrapper small">
-                        <div class="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked"></div><input type="checkbox" id="checkbox-3" name="checkbox-3" data-name="Checkbox 3" style="opacity:0;position:absolute;z-index:-1" checked=""><span class="hidden-on-desktop w-form-label" for="checkbox-3">Placeholder</span>
+                    <form id="email-form" name="email-form" data-name="Email Form" method="get" data-wf-page-id="66cc87062bcd9d178ab9f299" data-wf-element-id="77b95bf4-3539-d1f4-01d4-a66d2f1842d1">
+                      <label class="w-checkbox checkbox-field-wrapper small">
+                        <div class="w-checkbox-input w-checkbox-input--inputType-custom checkbox w--redirected-checked"></div>
+                        <input type="checkbox" id="checkbox-3" name="checkbox-3" data-name="Checkbox 3" style="opacity:0;position:absolute;z-index:-1" checked="">
+                        <span class="hidden-on-desktop w-form-label" for="checkbox-3">Placeholder</span>
                       </label></form>
                     <div class="w-form-done">
                       <div>Thank you! Your submission has been received!</div>
